@@ -1,0 +1,42 @@
+*{
+  margin:  0 auto;
+  padding: 0;  
+}
+#wrapper {
+    max-width: 500px;
+    background-image: url(foto/leo.jpg);
+}
+#header img{
+    border: solid 3px white;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%
+}
+#header h2{
+    background-image: url(foto/tank\ t\ 14.jpg);
+}
+.content{
+    background-color: gold;
+    width: 400px;
+    height: 50px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+}
+.content:hover {
+    background-color: goldenrod;
+}
+#footer {
+    background-image: url(foto/5.jpg);
+}
+#footer p{
+    font-weight: bold;
+    font-size: 15px;
+}
